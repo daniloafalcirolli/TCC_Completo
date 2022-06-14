@@ -16,6 +16,6 @@ function init() {
         });
     });
 
-    let url = "http://localhost:8080";
+    let url = "http://ip.b2ttelecomunicacoes.com.br:21305";
     window.localStorage.setItem("base_url", url);
 }
