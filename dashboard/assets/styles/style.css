@@ -1,0 +1,31 @@
+@import url("/assets/styles/global.css");
+
+.cards{    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+.card{
+    width: 18rem;
+    height: 10rem;
+    margin: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 0.4em rgb(202, 202, 202);
+
+    align-items: center;
+    justify-content:space-evenly;
+
+    cursor: pointer;
+}
+
+.card:hover{
+    transition: all 0.3s;
+    background-color: #DADADA;
+}
+
+.fa{
+    color: #1C4E80;
+    font-size: 60px;
+}
